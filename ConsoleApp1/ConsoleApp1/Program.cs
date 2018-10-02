@@ -113,7 +113,7 @@ namespace Condicionales
 
 
 
-            double nota;
+            /*double nota;
             Console.WriteLine("Introduce tú nota.");
             nota = Double.Parse(Console.ReadLine());
             if (nota < 5&&nota>=0)
@@ -135,23 +135,52 @@ namespace Condicionales
             else
             {
                 Console.WriteLine("Datos no válidos.");
-            }
+            }*/
 
 
-            
-
-
-
-
-
-
-            /*double peso, altura;
-            Console.WriteLine("Escribe tu altura");
-            altura = Int32.Parse(Console.ReadLine());
+            double peso, altura,imc;
+            Console.WriteLine("Escribe tu altura en metros");
+            altura = Double.Parse(Console.ReadLine());
             Console.WriteLine("Escribe tu peso");
-            peso = Int32.Parse(Console.ReadLine());*/
+            peso = Double.Parse(Console.ReadLine());
+            imc = peso/ Math.Pow(altura,2);
+            if (imc == 0)
+            {
+                Console.WriteLine("Estas muerto");
+            }
+            else if (imc > 0 && imc <= 16)
+            {
+                Console.WriteLine("Delgadez severa");
+            }
+            else if (imc >= 16 && imc < 17)
+            {
+                Console.WriteLine("Delgadez moderada");
+            }
+            else if (imc >= 17 && imc < 18.5)
+            {
+                Console.WriteLine("Delgadez delgadez aceptable");
+            }
+            else if (imc >= 18.5 && imc < 25)
+            {
+                Console.WriteLine("Peso normal");
+            }
+            else if (imc >= 25 && imc < 30)
+            {
+                Console.WriteLine("Sobrepeso");
+            }
+            else if (imc >=30  && imc < 35)
+            {
+                Console.WriteLine("Obeso tipo I");
+            }
+            else if (imc >=35 && imc <= 40)
+            {
+                Console.WriteLine("Obeso tipo II");
 
-
+            }
+            else if (imc > 40)
+            {
+                Console.WriteLine("Obeso tipo III");
+            }
             Console.ReadKey();
         }
     }
