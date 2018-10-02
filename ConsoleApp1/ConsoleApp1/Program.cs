@@ -512,22 +512,59 @@ namespace Condicionales
 
 
 
-            int año;
-            Console.WriteLine("Escribe el año que quieras saber si es bisieto");
-            año = Int32.Parse(Console.ReadLine());
+            //int año;
+            //Console.WriteLine("Escribe el año que quieras saber si es bisieto");
+            //año = Int32.Parse(Console.ReadLine());
 
-            if ((año % 4 == 0&&año%100!=0)||año%400==0)
+            //if ((año % 4 == 0&&año%100!=0)||año%400==0)//TE HA COSTADO MAJO
+            //{
+            //    Console.WriteLine("Es año bisiesto");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("No es año bisiesto");
+            //}
+
+
+
+            
+            Console.WriteLine("Elige entre estas opciones(pulsa una tecla)");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("a:Tomar otra birra");
+            Console.WriteLine("b:Irse a casa");
+            Console.WriteLine("c:Ir a dormir");
+            Console.WriteLine();
+            string bar = Console.ReadLine();
+            if (bar == "a")
             {
-                Console.WriteLine("Es año bisiesto");
+                Console.WriteLine("Pues a tomar otra!!");
             }
-            else 
+            else if (bar =="b")
             {
-                Console.WriteLine("No es año bisiesto");
+                Console.WriteLine("Pues vamos a casita :(");
             }
-    
+            else if (bar == "c")
+            {
+                Console.WriteLine("A dormir la mona");
+            }
+            else
+            {
+                Console.WriteLine("No te entiendo tío");
+            }
 
 
-               
+
+
+            
+
+
+
+
+
+
+
+
 
 
 
