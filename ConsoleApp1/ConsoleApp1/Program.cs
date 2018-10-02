@@ -138,49 +138,94 @@ namespace Condicionales
             }*/
 
 
-            double peso, altura,imc;
-            Console.WriteLine("Escribe tu altura en metros");
-            altura = Double.Parse(Console.ReadLine());
-            Console.WriteLine("Escribe tu peso");
-            peso = Double.Parse(Console.ReadLine());
-            imc = peso/ Math.Pow(altura,2);
-            if (imc == 0)
-            {
-                Console.WriteLine("Estas muerto");
-            }
-            else if (imc > 0 && imc <= 16)
-            {
-                Console.WriteLine("Delgadez severa");
-            }
-            else if (imc >= 16 && imc < 17)
-            {
-                Console.WriteLine("Delgadez moderada");
-            }
-            else if (imc >= 17 && imc < 18.5)
-            {
-                Console.WriteLine("Delgadez delgadez aceptable");
-            }
-            else if (imc >= 18.5 && imc < 25)
-            {
-                Console.WriteLine("Peso normal");
-            }
-            else if (imc >= 25 && imc < 30)
-            {
-                Console.WriteLine("Sobrepeso");
-            }
-            else if (imc >=30  && imc < 35)
-            {
-                Console.WriteLine("Obeso tipo I");
-            }
-            else if (imc >=35 && imc <= 40)
-            {
-                Console.WriteLine("Obeso tipo II");
+            //double peso, altura, imc;
+            //Console.WriteLine("Escribe tu altura en metros");
+            //altura = Double.Parse(Console.ReadLine());
+            //Console.WriteLine("Escribe tu peso");
+            //peso = Double.Parse(Console.ReadLine());
+            //imc = peso / Math.Pow(altura, 2);
+            //if (imc == 0)
+            //{
+            //    Console.WriteLine("Estas muerto");
+            //}
+            //else if (imc > 0 && imc <= 16)
+            //{
+            //    Console.WriteLine("Delgadez severa");
+            //}
+            //else if (imc >= 16 && imc < 17)
+            //{
+            //    Console.WriteLine("Delgadez moderada");
+            //}
+            //else if (imc >= 17 && imc < 18.5)
+            //{
+            //    Console.WriteLine("Delgadez delgadez aceptable");
+            //}
+            //else if (imc >= 18.5 && imc < 25)
+            //{
+            //    Console.WriteLine("Peso normal");
+            //}
+            //else if (imc >= 25 && imc < 30)
+            //{
+            //    Console.WriteLine("Sobrepeso");
+            //}
+            //else if (imc >= 30 && imc < 35)
+            //{
+            //    Console.WriteLine("Obeso tipo I");
+            //}
+            //else if (imc >= 35 && imc <= 40)
+            //{
+            //    Console.WriteLine("Obeso tipo II");
 
-            }
-            else if (imc > 40)
-            {
-                Console.WriteLine("Obeso tipo III");
-            }
+            //}
+            //else if (imc > 40)
+            //{
+            //    Console.WriteLine("Obeso tipo III");
+            //}
+
+
+
+            //Double entr, vip, saldo;
+            //Console.WriteLine("¿Ha pagado entrada? 1 o 0");//1 sera SÍ, 0 NO
+            //entr = Double.Parse(Console.ReadLine());
+            //Console.WriteLine("¿Es VIP? 1 o 0");
+            //vip = Double.Parse(Console.ReadLine());
+            //Console.WriteLine("Introduzca saldo cliente.");
+            //saldo = Double.Parse(Console.ReadLine());
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //if (entr == 1)//Las barras verticales altgr+1, OR
+            //{
+            //    Console.WriteLine("Bienvenido");
+            //}
+            //else if (entr == 0)
+            //{
+            //    Console.WriteLine("Tiene que pagar entrada");
+            //}
+            //else
+            //{ Console.WriteLine("Base de datos incorrecta"); }//PRIMERA PARTE EJERCICIO
+
+            //if (vip == 1 )
+            //{
+            //    Console.WriteLine("Bienvenido, ¡que pase un buen día!");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("Bienvenido");
+            //}
+
+            //if (saldo >= 0)
+            //{
+            //    Console.WriteLine("Bienvenido!");
+            //}
+
+            //if (vip == 1 && saldo >= 0)
+            //{
+            //    Console.WriteLine("Bienvenido!");
+            //}
+
+
+
             Console.ReadKey();
         }
     }
