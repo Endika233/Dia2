@@ -293,20 +293,57 @@ namespace Condicionales
             //    Console.WriteLine(num2 + " - 20 = " + num3);
             //}
 
+            //int num1, num2;
+            //Console.WriteLine("Escribe dos números");
+            //num1 = Int32.Parse(Console.ReadLine()); num2 = Int32.Parse(Console.ReadLine());
+            //if (num1 == num2)
+            //{
+            //    Console.WriteLine("0");
+            //}
+            //if (num1 % 6 == num2 % 6)
+            //{
+            //    if (num1 < num2)
+            //    {
+            //        Console.WriteLine(num1 + " es más pequeño que " + num2);
+            //    }
+            //    else if (num1 == num2)
+            //    {
+            //        Console.WriteLine("Los dos números son iguales");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(num2 + " es más pequeño que " + num1);
+            //    }
+            //}
+            //else if (num1 < num2)
+            //{
+            //    Console.WriteLine("El número más grande es " + num2);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("El número más grande es " + num1);
+            //}
+
+
             int num1, num2;
-            Console.WriteLine("Escribe dos números");
-            num1 = Int32.Parse(Console.ReadLine()); num2 = Int32.Parse(Console.ReadLine());
-            if (num1 == num2)
+            Console.WriteLine("Escribe dos números entre 25 y 75");
+            num1 = Int32.Parse(Console.ReadLine());num2 = Int32.Parse(Console.ReadLine());
+            int num1un, num1dec, num2un, num2dec;
+            num1un = num1 % 10;num2un = num2 % 10;
+            num1dec = num1 / 10;num2dec = num2 / 10;
+            if ((num1 < 25 || num1 > 75)||(num2<25||num2>75))
             {
-                Console.WriteLine("0");
+                Console.WriteLine("Número de entrada no válido");
             }
-            if (num1 % 6 == num2 % 6)
+            else if (num1un == num2un || num1un == num2dec || num1dec == num2un || num1dec == num2dec)
             {
-                if (num1 < num2)
-                {
-                    Console.WriteLine()
-                }
+                Console.WriteLine("Ambos números comparten algun dígito");
             }
+            else
+            {
+                Console.WriteLine("Ambos números no comparten ningún dígito");
+            }
+       
 
 
 
