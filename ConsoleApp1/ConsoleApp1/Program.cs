@@ -258,7 +258,13 @@ namespace Condicionales
             //    Console.WriteLine(num1 + " + " + num2 + " != " + num3);
             //}
 
-
+            long segundos, minutos, horas;
+            Console.WriteLine("Escribe los segundos a convertir");
+            segundos=Int64.Parse(Console.ReadLine());
+            horas = (segundos / 3600);
+            minutos = (segundos / 60)%60;
+            Console.WriteLine("Eso son "+horas+" h "+minutos+" min "+segundos%60+" seg");
+                
 
 
             Console.ReadKey();
