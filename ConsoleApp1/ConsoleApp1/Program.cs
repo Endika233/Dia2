@@ -64,7 +64,7 @@ namespace Condicionales
             }*/
 
 
-            int num1;
+            /*int num1;
             Console.WriteLine("Escribe un número de 1 al 12");
             num1 = Int32.Parse(Console.ReadLine());
             switch (num1)
@@ -109,11 +109,36 @@ namespace Condicionales
                 default:
                     Console.WriteLine("Ese número no es correcto");
                     break;
+            }*/
+
+
+
+            double nota;
+            Console.WriteLine("Introduce tú nota.");
+            nota = Double.Parse(Console.ReadLine());
+            if (nota < 5&&nota>=0)
+            {
+                Console.WriteLine("Suspenso.");
+            }
+            else if (nota >= 5 && nota < 6)
+            {
+                Console.WriteLine("Aprobado");
+            }
+            else if (nota >= 6 && nota < 7)
+            {
+                Console.WriteLine("Bien.");
+            }
+            else if (nota>=7&&nota<9.5)
+            { Console.WriteLine("Notable."); }
+            else if (nota >= 9.5 &&nota<=10) {
+            Console.WriteLine("Sobresaliente.");}
+            else
+            {
+                Console.WriteLine("Datos no válidos.");
             }
 
 
-
-
+            
 
 
 
