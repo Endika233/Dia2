@@ -258,13 +258,56 @@ namespace Condicionales
             //    Console.WriteLine(num1 + " + " + num2 + " != " + num3);
             //}
 
-            long segundos, minutos, horas;
-            Console.WriteLine("Escribe los segundos a convertir");
-            segundos=Int64.Parse(Console.ReadLine());
-            horas = (segundos / 3600);
-            minutos = (segundos / 60)%60;
-            Console.WriteLine("Eso son "+horas+" h "+minutos+" min "+segundos%60+" seg");
-                
+            //long segundos, minutos, horas;
+            //Console.WriteLine("Escribe los segundos a convertir");
+            //segundos=Int64.Parse(Console.ReadLine());
+            //horas = (segundos / 3600);
+            //minutos = (segundos / 60)%60;
+            //Console.WriteLine("Eso son "+horas+" h "+minutos+" min "+segundos%60+" seg");
+
+
+            //Console.WriteLine("Escribe tres números");
+            //int num1 = Int32.Parse(Console.ReadLine()), num2 = Int32.Parse(Console.ReadLine()), num3 = Int32.Parse(Console.ReadLine());
+            //if ((num1 + 20) == num2)
+            //{
+            //    Console.WriteLine(num2 + " - 20 = "+num1);
+            //}
+            // if ((num1 + 20) == num3)
+            //{
+            //    Console.WriteLine(num3 + " - 20 = " + num1);
+            //}
+            // if ((num2 + 20) == num1)
+            //{
+            //    Console.WriteLine(num1 + " - 20 = " + num2);
+            //}
+            // if ((num2 + 20) == num3)
+            //{
+            //    Console.WriteLine(num3 + " - 20 = " + num2);
+            //}
+            // if ((num3 + 20) == num1)
+            //{
+            //    Console.WriteLine(num1 + " - 20 = " + num3);
+            //}
+            // if ((num3 + 20) == num2)
+            //{
+            //    Console.WriteLine(num2 + " - 20 = " + num3);
+            //}
+
+            int num1, num2;
+            Console.WriteLine("Escribe dos números");
+            num1 = Int32.Parse(Console.ReadLine()); num2 = Int32.Parse(Console.ReadLine());
+            if (num1 == num2)
+            {
+                Console.WriteLine("0");
+            }
+            if (num1 % 6 == num2 % 6)
+            {
+                if (num1 < num2)
+                {
+                    Console.WriteLine()
+                }
+            }
+
 
 
             Console.ReadKey();
