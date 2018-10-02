@@ -225,6 +225,41 @@ namespace Condicionales
             //}
 
 
+            //Console.WriteLine("Escribe dos números.");
+            //double num1 = Double.Parse(Console.ReadLine()), num2 = Double.Parse(Console.ReadLine());
+            //Console.WriteLine(num1 + " + " + num2 + " = " + (num1 + num2));
+            //Console.WriteLine(num1 + " - " + num2 + " = " + (num1 - num2));
+            //Console.WriteLine(num1 + " x " + num2 + " = " + (num1 * num2));
+            //Console.WriteLine(num1 + " / " + num2 + " = " + (num1 / num2));
+            //Console.WriteLine("La media de " + num1 + " y " + num2 + " es " + (num1 + num2) / 2);
+            //if (num1 > num2)
+            //{
+            //    Console.WriteLine("El número más alto es " + num1);
+            //    Console.WriteLine("Y el más bajo es " + num2);
+            //}
+            //if (num2 > num1)
+            //{
+            //    Console.WriteLine("El número más alto es " + num2);
+            //    Console.WriteLine("Y el mas bajo es " + num1);
+            //}
+
+
+            //Double num1, num2, num3;
+            //Console.WriteLine("Escribe tres números");
+            //num1 = Double.Parse(Console.ReadLine());
+            //num2 = Double.Parse(Console.ReadLine());
+            //num3 = Double.Parse(Console.ReadLine());
+            //if (num1 + num2 == num3)
+            //{
+            //    Console.WriteLine(num1 + " + " + num2 + " = "+num3);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(num1 + " + " + num2 + " != " + num3);
+            //}
+
+
+
 
             Console.ReadKey();
         }
