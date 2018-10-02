@@ -212,17 +212,17 @@ namespace Condicionales
             //else 
             //{
             //    Console.WriteLine("Bienvenido");
-            //}
+            //}//SEGUNDA PARTE DEL EJERCICIO
 
             //if (saldo >= 0)
             //{
             //    Console.WriteLine("Bienvenido!");
-            //}
+            //}//TERCERA PARTE
 
             //if (vip == 1 && saldo >= 0)
             //{
             //    Console.WriteLine("Bienvenido!");
-            //}
+            //}//CUARTA PARTE
 
 
             //Console.WriteLine("Escribe dos números.");
@@ -325,25 +325,212 @@ namespace Condicionales
             //}
 
 
-            int num1, num2;
-            Console.WriteLine("Escribe dos números entre 25 y 75");
-            num1 = Int32.Parse(Console.ReadLine());num2 = Int32.Parse(Console.ReadLine());
-            int num1un, num1dec, num2un, num2dec;
-            num1un = num1 % 10;num2un = num2 % 10;
-            num1dec = num1 / 10;num2dec = num2 / 10;
-            if ((num1 < 25 || num1 > 75)||(num2<25||num2>75))
+            //int num1, num2;
+            //Console.WriteLine("Escribe dos números entre 25 y 75");
+            //num1 = Int32.Parse(Console.ReadLine());num2 = Int32.Parse(Console.ReadLine());
+            //int num1un, num1dec, num2un, num2dec;
+            //num1un = num1 % 10;num2un = num2 % 10;
+            //num1dec = num1 / 10;num2dec = num2 / 10;
+            //if ((num1 < 25 || num1 > 75)||(num2<25||num2>75))
+            //{
+            //    Console.WriteLine("Número de entrada no válido");
+            //}
+            //else if (num1un == num2un || num1un == num2dec || num1dec == num2un || num1dec == num2dec)
+            //{
+            //    Console.WriteLine("Ambos números comparten algun dígito");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Ambos números no comparten ningún dígito");
+            //}
+
+
+            //int puesto;
+            //Console.WriteLine("Escribe tu puesto en la carrera");
+            //puesto = Int32.Parse(Console.ReadLine());
+            ////if (puesto == 1)
+            ////{
+            ////    Console.WriteLine("Felicidades,¡ganaste!");
+            ////}
+            ////else if (puesto <= 0)
+            ////{
+            ////    Console.WriteLine("Comando no válido");
+            ////}
+            //else
+            //{
+            //    Console.WriteLine("Lo importante es participar(PERDEDOR!!)");
+            //}
+
+            //int puesto;
+            //Console.WriteLine("Escribe tu puesto en la carrera");
+            //puesto = Int32.Parse(Console.ReadLine());
+            //if (puesto == 1)
+            //{
+            //    Console.WriteLine("Felicidades,¡medalla de oro!");
+            //}
+            //else if (puesto == 2)
+            //{
+            //    Console.WriteLine("Medalla de plata");
+            //}
+            //else if (puesto == 3)
+            //{
+            //    Console.WriteLine("Medalla de bronce");
+            //}
+            //else if (puesto <= 0)
+            //{
+            //    Console.WriteLine("Comando no válido");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Lo importante es participar(PERDEDOR!!)");
+            //}
+
+
+            //int puesto;
+            //Console.WriteLine("Escribe tu puesto en la carrera");
+            //puesto = Int32.Parse(Console.ReadLine());
+            //switch (puesto)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Eres medalla de oro,¡felicidades!");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Eres medalla de plata");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Eres medalla de bronce");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Lo importante es participar");
+            //        break;
+            //}
+
+
+            //int puesto;
+            //Console.WriteLine("Escribe tu puesto en la carrera");
+            //puesto = Int32.Parse(Console.ReadLine());
+            //switch (puesto)
+            //{
+            //    case 1:
+            //    case 2:
+            //    case 3:
+            //        Console.WriteLine("Felicidades, sube al podio");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Se acabó la carrera");
+            //        break;
+            //}
+
+
+            //int puesto;
+            //Console.WriteLine("Escribe tu puesto en la carrera");
+            //puesto = Int32.Parse(Console.ReadLine());
+            //if (puesto == 1 || puesto == 2 || puesto == 3)
+            //{
+            //    Console.WriteLine("Sube al podio");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Se acabó la carrera");
+            //}
+
+
+            //int edad;
+            //Console.WriteLine("Escribe tu edad");
+            //edad = Int32.Parse(Console.ReadLine());
+            //if (edad <= 8)
+            //{
+            //    Console.WriteLine("Pasa al tobogan");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Eres demasiado mayor para esta mierda");
+            //}
+
+
+            //string dia;
+            //Console.WriteLine("Escribe que día de la semana es");
+            //dia= Console.ReadLine();
+            //switch (dia)
+            //{
+            //    case "sabado":
+            //    case "domingo":
+            //        Console.WriteLine("ES FIN DE SEMANA");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Es entresemana chumacho");
+            //        break;
+            //}
+
+
+            //string dia;
+            //Console.WriteLine("Escribe que día de la semana es");
+            //dia = Console.ReadLine();
+            //if (dia == "domingo" || dia == "sabado")
+            //{
+            //    Console.WriteLine("Es fin de semana");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Es entresemana");
+            //}
+
+
+            //int num;
+            //Console.WriteLine("Escribe un número");
+            //num = Int32.Parse(Console.ReadLine());
+            //if (num < 0)
+            //{
+            //    Console.WriteLine("El valor absoluto de " + num + " es " + num * -1);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(num);
+            //}
+
+
+            //int hel;
+            //double precio = 2;
+            //Console.WriteLine("¿Cuantos helados quieres?");
+            //hel = Int32.Parse(Console.ReadLine());
+            //Console.WriteLine("Te llevas " + (hel + hel / 10) + " helados, y el precio es " + hel * precio);
+
+
+
+            //double num, div;
+            //Console.WriteLine("Escribe el número que quieras dividir");
+            //num = Double.Parse(Console.ReadLine());
+            //Console.WriteLine("Y ahora el dividendo");
+            //div = Double.Parse(Console.ReadLine());
+            //if (div == 0)
+            //{
+            //    Console.WriteLine("No se puede dividir por 0");
+            //}
+            //else
+            //    Console.WriteLine("El resultado es "+num / div);
+
+
+
+            int año;
+            Console.WriteLine("Escribe el año que quieras saber si es bisieto");
+            año = Int32.Parse(Console.ReadLine());
+
+            if ((año % 4 == 0&&año%100!=0)||año%400==0)
             {
-                Console.WriteLine("Número de entrada no válido");
+                Console.WriteLine("Es año bisiesto");
             }
-            else if (num1un == num2un || num1un == num2dec || num1dec == num2un || num1dec == num2dec)
+            else 
             {
-                Console.WriteLine("Ambos números comparten algun dígito");
+                Console.WriteLine("No es año bisiesto");
             }
-            else
-            {
-                Console.WriteLine("Ambos números no comparten ningún dígito");
-            }
-       
+    
+
+
+               
+
+
+
 
 
 
